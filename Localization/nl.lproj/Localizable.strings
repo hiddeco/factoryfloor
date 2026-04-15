@@ -1,0 +1,297 @@
+/* Menu */
+"New" = "Nieuw";
+"New Project" = "Nieuw project";
+
+/* Onboarding */
+"AI-powered workspaces for your codebase." = "AI-gestuurde werkruimtes voor je codebase.";
+"Prerequisites" = "Vereisten";
+"Optional" = "Optioneel";
+"Getting Started" = "Aan de slag";
+"Add a project" = "Voeg een project toe";
+"Or drag a directory to the sidebar" = "Of sleep een map naar de zijbalk";
+"Key Concepts" = "Kernconcepten";
+"An isolated workspace with its own git branch, terminal, and AI agent." = "Een geïsoleerde werkruimte met een eigen git branch, terminal en AI-agent.";
+"to create one inside a project." = "om er een aan te maken binnen een project.";
+
+/* Project Overview */
+"No workstreams yet" = "Nog geen workstreams";
+"Workstreams" = "Workstreams";
+"Press " = "Druk op ";
+"to create one." = "om er een aan te maken.";
+
+/* Sidebar */
+"Recent" = "Recent";
+"A-Z" = "A-Z";
+
+/* Alerts */
+"Remove Project" = "Project verwijderen";
+"Remove Workstream" = "Workstream verwijderen";
+"Ongoing terminals and Coding Agent sessions will be killed. The worktree and its files will remain on disk." = "Actieve terminals en Coding Agent-sessies worden beëindigd. De worktree en bijbehorende bestanden blijven op schijf staan.";
+"Purge Workstream" = "Workstream wissen";
+"Purge" = "Wissen";
+"Purge Anyway" = "Toch wissen";
+"uncommitted changes" = "niet-gecommitte wijzigingen";
+"unpushed commits" = "niet-gepushte commits";
+" and " = " en ";
+"This workstream has %@ that will be lost." = "Deze workstream heeft %@ die verloren gaan.";
+"The worktree and its branch will be permanently deleted." = "De worktree en bijbehorende branch worden permanent verwijderd.";
+"Projects Not Found" = "Projecten niet gevonden";
+"The following projects were removed because their directories no longer exist on disk: %@" = "De volgende projecten zijn verwijderd omdat hun mappen niet meer op schijf bestaan: %@";
+"Cancel" = "Annuleer";
+"Save" = "Bewaar";
+"Save As..." = "Bewaar als...";
+"Don't Save" = "Niet bewaren";
+"Do you want to save changes to \"%@\"?" = "Wil je de wijzigingen in \"%@\" bewaren?";
+"Your changes will be lost if you don't save them." = "Je wijzigingen gaan verloren als je ze niet bewaart.";
+"Remove" = "Verwijder";
+"Worktree Creation Failed" = "Worktree aanmaken mislukt";
+"Could not create the git worktree. The branch may already exist, or there may be an ongoing merge or rebase." = "Kon de git worktree niet aanmaken. De branch bestaat mogelijk al, of er loopt een merge of rebase.";
+"OK" = "OK";
+"Not a Git Repository" = "Geen Git-repository";
+"Workstreams require a git repository. Initialize one with git init or select a different directory." = "Workstreams vereisen een git-repository. Initialiseer er een met git init of kies een andere map.";
+
+/* Sheets */
+"Add Project" = "Project toevoegen";
+"Directory" = "Map";
+"Project Name" = "Projectnaam";
+"Add" = "Voeg toe";
+/* File Picker */
+"Choose a project directory" = "Kies een projectmap";
+"Select" = "Selecteer";
+
+/* Settings */
+"Settings" = "Instellingen";
+"Session" = "Sessie";
+"Tmux Mode" = "Tmux-modus";
+"Coding Agent sessions persist across app restarts. The Terminal tab is not affected. Sessions are lost on system restart." = "Coding Agent-sessies blijven behouden na het herstarten van de app. Het Terminal-tabblad wordt niet beïnvloed. Sessies gaan verloren bij een systeemherstart.";
+"Language" = "Taal";
+"System Default" = "Systeemstandaard";
+"Restart the app for the language change to take effect." = "Herstart de app om de taalwijziging door te voeren.";
+"Not found" = "Niet gevonden";
+"Authenticated" = "Geauthenticeerd";
+"Not authenticated" = "Niet geauthenticeerd";
+"Run: gh auth login" = "Voer uit: gh auth login";
+"Terminal" = "Terminal";
+"None" = "Geen";
+"Browser" = "Browser";
+"Editor" = "Editor";
+"New Editor (\u2318E)" = "Nieuwe editor (⌘E)";
+"Open File" = "Open bestand";
+"Toggle file tree" = "Bestandsstructuur in-/uitklappen";
+"Select a file to edit" = "Kies een bestand om te bewerken";
+"GitHub" = "GitHub";
+"Coding Agent" = "Coding Agent";
+"Bypass permission prompts" = "Toestemmingsprompts overslaan";
+"When enabled, the coding agent will not ask for confirmation before making changes. Use with caution: the agent will be able to edit files, run commands, and make git commits without asking." = "Indien ingeschakeld, vraagt de Coding Agent geen bevestiging meer voordat hij wijzigingen aanbrengt. Wees voorzichtig: de agent kan dan bestanden bewerken, commando's uitvoeren en git commits maken zonder te vragen.";
+"Allow writes outside worktree" = "Schrijven buiten worktree toestaan";
+"When enabled, the coding agent can modify files anywhere on disk. When disabled, writes are restricted to the worktree directory." = "Indien ingeschakeld, kan de Coding Agent overal op schijf bestanden wijzigen. Indien uitgeschakeld, zijn schrijfacties beperkt tot de worktree-map.";
+"External Terminal" = "Externe terminal";
+"Requires tmux to be installed." = "Vereist dat tmux geïnstalleerd is.";
+"URL" = "URL";
+
+/* Worktrees */
+"Git Worktrees" = "Git Worktrees";
+"Prune Worktrees" = "Worktrees opschonen";
+"Prune" = "Opschonen";
+"Clean" = "Schoon";
+"Uncommitted changes" = "Niet-gecommitte wijzigingen";
+"Commits ahead" = "Commits vooruit";
+"Open as workstream" = "Openen als workstream";
+"Worktrees on disk for this repository. Pruning removes clean worktrees that are not associated with a workstream." = "Worktrees op schijf voor deze repository. Opschonen verwijdert schone worktrees die niet aan een workstream zijn gekoppeld.";
+"Prune %d clean worktree" = "%d schone worktree opschonen";
+"Prune %d clean worktrees" = "%d schone worktrees opschonen";
+"Remove %d clean worktree with no uncommitted changes?" = "%d schone worktree zonder niet-gecommitte wijzigingen verwijderen?";
+"Remove %d clean worktrees with no uncommitted changes?" = "%d schone worktrees zonder niet-gecommitte wijzigingen verwijderen?";
+"Remove \"%@\" from the list? Files in %@ will not be deleted." = "\"%@\" uit de lijst verwijderen? Bestanden in %@ worden niet verwijderd.";
+
+/* Projects */
+"Symlink .env files" = ".env-bestanden symlinken";
+"Symlink .env and .env.local from the main repository into new worktrees." = "Symlink .env en .env.local vanuit de hoofdrepository naar nieuwe worktrees.";
+
+/* Quit confirmation */
+"Quit Factory Floor?" = "Factory Floor afsluiten?";
+"Active workstreams will be stopped." = "Actieve workstreams worden gestopt.";
+"Quit" = "Stop";
+"Confirm before quitting" = "Bevestigen voor afsluiten";
+"Show a confirmation dialog when quitting with active workstreams." = "Toon een bevestigingsdialoog bij het afsluiten met actieve workstreams.";
+"Launch at login" = "Opstarten bij inloggen";
+"Automatically open Factory Floor when you log in." = "Open Factory Floor automatisch bij het inloggen.";
+"Detailed logging" = "Gedetailleerde logging";
+"Log setup, run, and teardown script output to files for debugging." = "Log uitvoer van setup-, run- en teardown-scripts naar bestanden voor debugging.";
+"Open Logs Directory" = "Open logmap";
+
+/* Settings - Environment */
+"Environment" = "Omgeving";
+"Installed" = "Geïnstalleerd";
+"Install..." = "Installeer...";
+
+/* Settings - General */
+"General" = "Algemeen";
+"Base directory" = "Basismap";
+"Change..." = "Wijzig...";
+"Choose base directory for projects" = "Kies basismap voor projecten";
+"Default location when adding new projects." = "Standaardlocatie bij het toevoegen van nieuwe projecten.";
+"Branch prefix" = "Branch-prefix";
+"Theme" = "Thema";
+"System" = "Systeem";
+"Light" = "Licht";
+"Dark" = "Donker";
+
+/* Settings - Coding Agent */
+"Agent Teams" = "Agent Teams";
+"Enables experimental multi-agent coordination. Agents can spawn teammates, delegate tasks, and collaborate across workstreams." = "Schakelt experimentele multi-agentcoördinatie in. Agents kunnen teamgenoten spawnen, taken delegeren en samenwerken over workstreams heen.";
+"Auto-rename branch" = "Branch automatisch hernoemen";
+"On the first request, the agent renames the branch to match the task and writes a short description visible in the sidebar." = "Bij het eerste verzoek hernoemt de agent de branch passend bij de taak en schrijft een korte beschrijving die zichtbaar is in de zijbalk.";
+"External Browser" = "Externe browser";
+
+/* Settings - Advanced */
+"Advanced" = "Geavanceerd";
+"Usage analytics" = "Gebruiksanalyse";
+"Send anonymous usage data to help improve Factory Floor. We collect: app version, build type, macOS version, locale, and screen resolution. No project names, file contents, or personal data." = "Stuur anonieme gebruiksgegevens om Factory Floor te verbeteren. We verzamelen: app-versie, buildtype, macOS-versie, taalinstelling en schermresolutie. Geen projectnamen, bestandsinhoud of persoonlijke gegevens.";
+"Crash reports" = "Crashrapporten";
+"Send crash reports and performance data. Requires restart to take effect." = "Stuur crashrapporten en prestatiegegevens. Vereist een herstart om van kracht te worden.";
+"Bleeding edge" = "Experimenteel";
+"Receive pre-release builds with the latest features. These may be less stable." = "Ontvang pre-release builds met de nieuwste functies. Deze kunnen minder stabiel zijn.";
+"Clear project list" = "Projectlijst wissen";
+"Clear All..." = "Alles wissen...";
+"Clear All" = "Alles wissen";
+"Removes all projects and workstreams from the sidebar. No files or directories on disk will be deleted." = "Verwijdert alle projecten en workstreams uit de zijbalk. Er worden geen bestanden of mappen op schijf verwijderd.";
+"Clear project list?" = "Projectlijst wissen?";
+"This will remove all projects and workstreams from the sidebar. No files on disk will be deleted. This cannot be undone." = "Dit verwijdert alle projecten en workstreams uit de zijbalk. Er worden geen bestanden op schijf verwijderd. Dit kan niet ongedaan worden gemaakt.";
+
+/* HelpView - Shortcuts */
+"Shortcuts" = "Sneltoetsen";
+"Global" = "Globaal";
+"Available everywhere" = "Overal beschikbaar";
+"Help" = "Help";
+"New workstream or project" = "Nieuwe workstream of project";
+"New project" = "Nieuw project";
+"Workstream" = "Workstream";
+"When a workstream is active" = "Wanneer een workstream actief is";
+"Focus Coding Agent" = "Focus op Coding Agent";
+"Info panel" = "Infopaneel";
+"New Terminal" = "Nieuwe terminal";
+"New Browser" = "Nieuwe browser";
+"Close tab" = "Tabblad sluiten";
+"Address bar" = "Adresbalk";
+"Back to project" = "Terug naar project";
+"Switch tab" = "Tabblad wisselen";
+"Previous tab" = "Vorig tabblad";
+"Next tab" = "Volgend tabblad";
+"Navigation" = "Navigatie";
+"Works from any view in a project" = "Werkt vanuit elke weergave in een project";
+"Switch workstream" = "Workstream wisselen";
+"External Apps" = "Externe apps";
+"Opens the current workstream directory" = "Opent de huidige workstream-map";
+"Open in external browser" = "Openen in externe browser";
+"Open in external terminal" = "Openen in externe terminal";
+"Open in External Terminal" = "Openen in externe terminal";
+"Open on GitHub" = "Openen op GitHub";
+"Reveal in Finder" = "Toon in Finder";
+"Copy project path" = "Kopieer projectpad";
+"Copy branch name" = "Kopieer branch-naam";
+"Copy worktree path" = "Kopieer worktree-pad";
+
+/* Agent tab - Claude not installed */
+"Claude Code not found" = "Claude Code niet gevonden";
+"Install Claude Code to use the Coding Agent." = "Installeer Claude Code om de Coding Agent te gebruiken.";
+"Install Claude Code" = "Installeer Claude Code";
+
+/* BrowserView */
+"Server not responding" = "Server reageert niet";
+"Retry" = "Opnieuw proberen";
+
+/* ProjectOverviewView */
+"Repository" = "Repository";
+"GitHub" = "GitHub";
+"Branch" = "Branch";
+"Commits" = "Commits";
+"Remote" = "Remote";
+"Status" = "Status";
+"Stars" = "Sterren";
+"Open Issues" = "Open issues";
+"Open PRs" = "Open PR's";
+"Not a git repository" = "Geen git-repository";
+"Description" = "Beschrijving";
+
+/* Initialization errors */
+"Factory Floor cannot start" = "Factory Floor kan niet starten";
+"The terminal engine (Ghostty) failed to initialize. This may indicate a system compatibility issue." = "De terminal-engine (Ghostty) kon niet worden geïnitialiseerd. Dit kan duiden op een systeemcompatibiliteitsprobleem.";
+
+/* EnvironmentTabView */
+"Setup" = "Setup";
+"Run" = "Run";
+"Restart %@ script" = "%@-script herstarten";
+"Start %@ script" = "%@-script starten";
+"No %@ script configured" = "Geen %@-script geconfigureerd";
+"Add a %@ field to .factoryfloor.json:" = "Voeg een %@-veld toe aan .factoryfloor.json:";
+"Also supports .factoryfloor/config.json." = "Ondersteunt ook .factoryfloor/config.json.";
+
+/* Tab labels */
+"Info" = "Info";
+"Agent" = "Agent";
+
+/* ProjectSidebar - context menu */
+"New workstream (full permissions)" = "Nieuwe workstream (volledige rechten)";
+"New workstream (with prompts)" = "Nieuwe workstream (met prompts)";
+
+/* AddProjectChoiceSheet */
+"Existing Directory" = "Bestaande map";
+"Create a new directory in the base directory" = "Maak een nieuwe map aan in de basismap";
+"Select an existing directory from disk" = "Selecteer een bestaande map van schijf";
+
+/* NewProjectSheet */
+"(change in Settings)" = "(wijzig in Instellingen)";
+"Create" = "Aanmaken";
+
+/* Settings - CLI install */
+"Install '%@' command" = "'%@'-commando installeren";
+"The '%@' command is installed and ready to use." = "Het '%@'-commando is geïnstalleerd en klaar voor gebruik.";
+"Install the '%@' command to open directories in %@ from any terminal." = "Installeer het '%@'-commando om mappen in %@ te openen vanuit elke terminal.";
+
+/* HelpView - credits */
+"Version %@" = "Versie %@";
+"Made with " = "Gemaakt met ";
+" in Poblenou, Barcelona" = " in Poblenou, Barcelona";
+"Built by David Poblador i Garcia" = "Gemaakt door David Poblador i Garcia";
+"with the support of" = "met de steun van";
+"by " = "door ";
+"Help " = "Steun ";
+" the development." = " de ontwikkeling.";
+
+
+/* Help */
+"Sponsor" = "Sponsor";
+"Report a Bug" = "Bug melden";
+"Documentation" = "Documentatie";
+"Request a Feature" = "Functie aanvragen";
+"Rerun" = "Opnieuw uitvoeren";
+"Start" = "Start";
+"Stop" = "Stop";
+
+"Running setup..." = "Setup wordt uitgevoerd...";
+"Setup failed." = "Setup mislukt.";
+"Continue to Agent" = "Verder naar Agent";
+
+"Restarting..." = "Herstarten...";
+"Preparing workstream..." = "Workstream voorbereiden...";
+
+/* Update Banner */
+"v%@ available" = "v%@ beschikbaar";
+"Release Notes" = "Release-opmerkingen";
+"Using scripts from %@" = "Gebruikt scripts van %@";
+
+/* Quick Actions */
+"Quick Actions" = "Snelacties";
+"Commit" = "Commit";
+"Push" = "Push";
+"Create PR" = "PR aanmaken";
+"Close PR" = "PR sluiten";
+"Open #%d" = "Open #%d";
+"This branch has been merged." = "Deze branch is gemerged.";
+"gh CLI is not installed." = "gh CLI is niet geïnstalleerd.";
+"Claude Code is not installed." = "Claude Code is niet geïnstalleerd.";
+"Enable \"Bypass permission prompts\" in Settings." = "Schakel \"Toestemmingsprompts overslaan\" in bij Instellingen.";
+"No GitHub remote found for this project." = "Geen GitHub-remote gevonden voor dit project.";
+"Quick action debug" = "Snelactie-debug";
+"Show a debug panel with command output from quick actions (Create PR, Commit & Push)." = "Toon een debugpaneel met de uitvoer van snelacties (PR aanmaken, Commit & Push).";

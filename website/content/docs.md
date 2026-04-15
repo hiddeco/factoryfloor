@@ -256,7 +256,7 @@ Open with **⌘,** or click the gear icon.
 - **Branch prefix** — prefix for workstream branches (default: `ff`)
 - **Symlink .env files** — auto-symlink `.env` and `.env.local` to worktrees
 - **Theme** — System, Light, or Dark
-- **Language** — System default, English, Catalan, Spanish, or Swedish
+- **Language** — System default, English, Catalan, German, Spanish, Dutch, Flemish, or Swedish
 - **Confirm before quitting** — asks before closing with active workstreams
 - **Launch at login** — starts Factory Floor on boot
 

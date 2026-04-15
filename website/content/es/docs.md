@@ -247,7 +247,7 @@ Abre con **⌘,** o haz clic en el icono del engranaje.
 - **Branch prefix** — prefijo para branches de workstream (por defecto: `ff`)
 - **Symlink .env files** — symlink automático de `.env` y `.env.local` a worktrees
 - **Theme** — Sistema, Claro u Oscuro
-- **Language** — Por defecto del sistema, English, Catalan, Spanish o Swedish
+- **Language** — Por defecto del sistema, inglés, catalán, alemán, español, neerlandés, flamenco o sueco
 - **Confirm before quitting** — pregunta antes de cerrar con workstreams activos
 - **Launch at login** — inicia Factory Floor al arrancar
 

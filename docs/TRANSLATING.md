@@ -1,6 +1,6 @@
 # Translating Factory Floor
 
-Factory Floor is localized in four languages: English (en), Catalan (ca), Spanish (es), and Swedish (sv). Contributions to improve existing translations or add new languages are welcome.
+Factory Floor is localized in seven languages: English (en), Catalan (ca), German (de), Spanish (es), Dutch (nl), Flemish (nl-BE), and Swedish (sv). Contributions to improve existing translations or add new languages are welcome.
 
 There are two independent translation surfaces: the **app** (native macOS UI) and the **website** (factory-floor.com). You can contribute to either or both.
 
@@ -22,7 +22,13 @@ Localization/
 ├── ca.lproj/
 │   ├── Localizable.strings
 │   └── InfoPlist.strings
+├── de.lproj/
+│   └── ...
 ├── es.lproj/
+│   └── ...
+├── nl.lproj/
+│   └── ...
+├── nl-BE.lproj/
 │   └── ...
 └── sv.lproj/
     └── ...
@@ -48,7 +54,7 @@ The key (left side) is always the English string. The value (right side) is the 
 
 ### Adding a string
 
-When adding a new user-facing string to the app, it **must** be added to all four language files. If you don't speak one of the languages, add the English string as a placeholder and note it in your PR so someone else can translate it.
+When adding a new user-facing string to the app, it **must** be added to all seven language files. If you don't speak one of the languages, add the English string as a placeholder and note it in your PR so someone else can translate it.
 
 ## Website translations
 
@@ -62,7 +68,10 @@ website/
 ├── i18n/
 │   ├── en.toml                # Template UI strings (English)
 │   ├── ca.toml
+│   ├── de.toml
 │   ├── es.toml
+│   ├── nl.toml
+│   ├── nl-BE.toml
 │   └── sv.toml
 └── content/
     ├── _index.md              # Homepage (English)
@@ -76,7 +85,13 @@ website/
     │   ├── get.md
     │   ├── sponsor.md
     │   └── legal/privacy.md
+    ├── de/                    # German content
+    │   └── ...
     ├── es/                    # Spanish content
+    │   └── ...
+    ├── nl/                    # Dutch content
+    │   └── ...
+    ├── nl-be/                 # Flemish content
     │   └── ...
     └── sv/                    # Swedish content
         └── ...
@@ -96,7 +111,7 @@ other = "Download"
 
 ### Content pages
 
-Full-page content lives in `website/content/`. English pages are at the root, and translations go in language-specific subdirectories (`ca/`, `es/`, `sv/`). Each translated page must have the same filename as its English counterpart.
+Full-page content lives in `website/content/`. English pages are at the root, and translations go in language-specific subdirectories (`ca/`, `de/`, `es/`, `nl/`, `nl-be/`, `sv/`). Each translated page must have the same filename as its English counterpart.
 
 ### Testing website translations locally
 
@@ -148,14 +163,14 @@ Adding a new language touches several files across the app and website. Here's t
 Hugo's `.AllTranslations` function returns duplicates because our localized `contentDir` directories are nested inside the English `content/` directory. Instead, the language switcher uses a hardcoded list:
 
 ```go
-{{ $codes := slice "en" "ca" "es" "sv" }}
+{{ $codes := slice "en" "ca" "de" "es" "nl" "nl-be" "sv" }}
 ```
 
 If you add a new language, you must update this list in `docs.html` and `footer.html`. Grep for `codes := slice` to find all occurrences.
 
 ### App strings use the English text as the key
 
-In `Localizable.strings`, the key is the English string itself. This means if you change the English text, you need to update the key in **all four** language files.
+In `Localizable.strings`, the key is the English string itself. This means if you change the English text, you need to update the key in **all seven** language files.
 
 ### SwiftUI vs AppKit localization
 

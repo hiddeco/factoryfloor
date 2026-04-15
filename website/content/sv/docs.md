@@ -247,7 +247,7 @@ När aktiverat (Settings > General) skapar Factory Floor symlinks för `.env` oc
 - **Branch prefix** — prefix för workstream-branches (standard: `ff`)
 - **Symlink .env files** — auto-symlink `.env` och `.env.local` till worktrees
 - **Theme** — System, Ljust eller Mörkt
-- **Language** — Systemstandard, English, Catalan, Spanish eller Swedish
+- **Language** — Systemstandard, engelska, katalanska, tyska, spanska, nederländska, flamländska eller svenska
 - **Confirm before quitting** — frågar innan stängning med aktiva workstreams
 - **Launch at login** — startar Factory Floor vid uppstart
 

@@ -1,0 +1,256 @@
+# Site
+[site_tagline]
+other = "AI-gestuurde ontwikkelomgeving voor macOS"
+
+# Navigation
+[nav_features]
+other = "Functies"
+[nav_how]
+other = "Hoe het werkt"
+[nav_config]
+other = "Configuratie"
+
+# Hero
+[hero_badge]
+other = "Open Source"
+[hero_title_1]
+other = "Jouw"
+[hero_title_accent]
+other = "AI-gestuurde"
+[hero_title_2]
+other = "dev-werkruimte."
+[hero_desc]
+other = "Een native macOS-app gebouwd op de GPU-gerenderde terminal van <a href=\"https://ghostty.org\" class=\"text-wine-light hover:underline\">Ghostty</a>. Beheert git worktrees, <a href=\"https://docs.anthropic.com/en/docs/claude-code/overview\" class=\"text-wine-light hover:underline\">Claude Code</a>-sessies en dev-servers vanuit één venster. Elke workstream krijgt een eigen branch, terminal en AI-agent — allemaal parallel, allemaal op native snelheid."
+[hero_demo_tab]
+other = "Demo"
+[hero_download]
+other = "Download"
+[hero_source]
+other = "Bekijk broncode"
+
+# Features
+[features_label]
+other = "Functies"
+[features_title]
+other = "Alles in één venster."
+[features_desc]
+other = "Geen gejongleer meer met terminals, browsers en git-clients. Elke workstream is een op zichzelf staande ontwikkelomgeving."
+[feat_worktrees_title]
+other = "Git Worktrees"
+[feat_worktrees_desc]
+other = "Elke workstream krijgt een eigen branch en worktree. Wissel tussen taken zonder te stashen, met automatisch gesymlinkte .env-bestanden."
+[feat_claude_title]
+other = "Claude Code"
+[feat_claude_desc]
+other = "Geïntegreerde <a href='https://docs.anthropic.com/en/docs/claude-code/overview' class='text-wine-light no-underline hover:underline'>Claude Code</a>-agent met sessiepersistentie. Hervat gesprekken na het herstarten van de app dankzij automatische sessie-ID's."
+[feat_tmux_title]
+other = "Tmux-persistentie"
+[feat_tmux_desc]
+other = "Agent-sessies overleven het herstarten van de app via tmux op een dedicated socket. Geen verloren context of onderbroken workflows meer."
+[feat_scripts_title]
+other = "Setup- & run-scripts"
+[feat_scripts_desc]
+other = "Configureer setup-, run- en teardown-scripts per project via .factoryfloor.json."
+[feat_browser_title]
+other = "Ingebouwde browser"
+[feat_browser_desc]
+other = "Ingebouwde browser met automatische poortdetectie. De luisterende poort van het run-script wordt automatisch gedetecteerd en de browser navigeert ernaar. Bekijk je app zonder de werkruimte te verlaten."
+[feat_github_title]
+other = "GitHub-integratie"
+[feat_github_desc]
+other = "Bekijk repo-info, open PR's en branch-PR-status direct in de projectweergave. Aangedreven door de gh CLI."
+
+# How it works
+[how_label]
+other = "Hoe het werkt"
+[how_title]
+other = "Drie stappen naar parallel ontwikkelen."
+[how_desc]
+other = "Ga van repo naar draaiende workstream in seconden. Elke workstream is geïsoleerd en op zichzelf staand."
+[step1_title]
+other = "Voeg een project toe"
+[step1_desc]
+other = "Sleep een map op de zijbalk, of maak een nieuwe aan. Factory Floor detecteert git-repo's, geïnstalleerde tools en GitHub-koppelingen automatisch."
+[step2_title]
+other = "Maak een workstream aan"
+[step2_desc]
+other = "Een nieuwe git worktree met een verse branch, een Claude Code-sessie, een terminal en een browsertab. Poortdetectie is automatisch — de browser opent je dev-server zodra die begint te luisteren."
+[step3_title]
+other = "Programmeer met AI"
+[step3_desc]
+other = "De Coding Agent hernoemt je branch passend bij de taak. Setup-scripts installeren dependencies. Wissel tussen workstreams zonder state te verliezen."
+
+# Config
+[config_label]
+other = "Configuratie"
+[config_title]
+other = "Drop-in scriptconfiguratie."
+[config_desc]
+other = "Automatiseer de levenscyclus van je workstream met setup-, run- en teardown-scripts. Installeer dependencies bij het aanmaken van een worktree, start dev-servers op aanvraag en ruim resources op bij het archiveren."
+[config_add]
+other = "Voeg een"
+[config_or_use]
+other = "toe aan je projectroot."
+[config_hook]
+other = "Hook"
+[config_when]
+other = "Wanneer het draait"
+[config_setup_desc]
+other = "Eenmalig, bij het aanmaken van een workstream. Gebruik voor het installeren van dependencies of buildstappen."
+[config_run_desc]
+other = "Op aanvraag via het Omgeving-tabblad. Gewrapped in ff-run voor automatische poortdetectie."
+[config_teardown_desc]
+other = "Bij het archiveren van een workstream. Gebruik voor opruimacties zoals het stoppen van containers."
+[config_optional_note]
+other = "Alle velden zijn optioneel. Scripts draaien in de workstream-map met je login-shell."
+
+# Env vars
+[env_label]
+other = "Omgeving"
+[env_title]
+other = "Variabelen beschikbaar in elke terminal."
+[env_desc]
+other = "Elke workstream-terminal, setup-script en run-commando heeft toegang tot deze omgevingsvariabelen. Gebruik ze in je scripts en dev-serverconfiguraties."
+[env_variable]
+other = "Variabele"
+[env_description]
+other = "Beschrijving"
+[env_example]
+other = "Voorbeeld"
+[env_project]
+other = "Projectnaam"
+[env_workstream]
+other = "Workstream-naam"
+[env_project_dir]
+other = "Pad naar hoofdrepository"
+[env_worktree_dir]
+other = "Worktree-pad voor deze workstream"
+[env_port]
+other = "Deterministische poort voor deze workstream"
+
+# Shortcuts
+[shortcuts_label]
+other = "Toetsenbord-eerst"
+[shortcuts_title]
+other = "Navigeer zonder muis."
+[shortcuts_desc]
+other = "Contextgevoelige sneltoetsen die zich aanpassen aan of je in een projectweergave of workstream zit."
+[shortcuts_global]
+other = "Globaal"
+[shortcuts_workstream]
+other = "Workstream"
+[shortcuts_navigation]
+other = "Navigatie"
+[sc_new]
+other = "Nieuwe workstream of project"
+[sc_settings]
+other = "Instellingen"
+[sc_back]
+other = "Terug naar project"
+[sc_tabs]
+other = "Tabblad wisselen"
+[sc_cycle]
+other = "Door tabbladen bladeren"
+[sc_archive]
+other = "Workstream archiveren"
+[sc_cycle_ws]
+other = "Door workstreams bladeren"
+[sc_cycle_project]
+other = "Door projecten bladeren"
+[sc_editor]
+other = "Nieuwe editor"
+[sc_save]
+other = "Opslaan (editor)"
+[sc_save_as]
+other = "Opslaan als (editor)"
+[sc_ext_browser]
+other = "Externe browser"
+[sc_ext_terminal]
+other = "Externe terminal"
+
+# Footer
+[footer_built_by]
+other = "Gemaakt door"
+[footer_support]
+other = "met de steun van"
+[footer_contact]
+other = "Contact"
+[footer_sponsor]
+other = "Sponsor"
+[footer_privacy]
+other = "Privacy"
+
+# Open Source
+[oss_label]
+other = "Open Source"
+[oss_title]
+other = "Gratis en open source."
+[oss_desc]
+other = "Factory Floor heeft een MIT-licentie en is gratis te gebruiken. De broncode is beschikbaar op GitHub. Bijdragen, bugrapporten en functieverzoeken zijn welkom."
+[oss_view]
+other = "Bekijk op GitHub"
+[oss_star]
+other = "Geef het project een ster"
+
+[footer_poblenou]
+other = "Gemaakt met ❤️ in Poblenou, Barcelona 🇪🇺"
+
+# Sponsor
+[sponsor_intro]
+other = "Factory Floor is gratis en open source."
+[sponsor_intro_2]
+other = "Jouw steun helpt bij het financieren van verdere ontwikkeling en nieuwe functies."
+[sponsor_financial]
+other = "Financiële steun"
+[sponsor_other]
+other = "Andere manieren om te helpen"
+[sponsor_github]
+other = "GitHub Sponsors"
+[sponsor_github_desc]
+other = "Terugkerend of eenmalig sponsoren via GitHub."
+[sponsor_coffee]
+other = "Buy Me a Coffee"
+[sponsor_coffee_desc]
+other = "Snelle eenmalige bijdrage."
+[sponsor_star]
+other = "Geef het project een ster op GitHub"
+[sponsor_star_desc]
+other = "Sterren helpen anderen Factory Floor te ontdekken."
+[sponsor_issues]
+other = "Meld problemen"
+[sponsor_issues_desc]
+other = "Bugrapporten en functieverzoeken helpen de app te verbeteren."
+[sponsor_contribute]
+other = "Draag code bij"
+[sponsor_contribute_desc]
+other = "Pull requests voor bugfixes en nieuwe functies zijn welkom."
+[sponsor_translate]
+other = "Vertaal de app of website"
+[sponsor_translate_desc]
+other = "Help Factory Floor toegankelijk te maken in meer talen."
+[sponsor_ghostty]
+other = "Steun Ghostty"
+[sponsor_ghostty_desc]
+other = "Factory Floor is gebouwd op de GPU-gerenderde terminal van Ghostty."
+
+# Get
+[get_title]
+other = "Factory Floor downloaden"
+[get_desc]
+other = "Installeer via Homebrew of download de nieuwste release."
+[get_install]
+other = "Installeren"
+[get_upgrade]
+other = "Upgraden"
+[get_download]
+other = "Downloaden van GitHub Releases"
+
+# Docs
+[nav_docs]
+other = "Docs"
+[docs_subtitle]
+other = "Alles wat je moet weten, niets wat je niet nodig hebt."
+
+# Changelog
+[changelog_subtitle]
+other = "Releasegeschiedenis van Factory Floor"

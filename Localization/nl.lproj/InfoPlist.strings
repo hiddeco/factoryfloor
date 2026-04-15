@@ -1,0 +1,44 @@
+/* Privacy - AppleScript */
+"NSAppleEventsUsageDescription" = "Een programma binnen Factory Floor wil AppleScript gebruiken.";
+
+/* Privacy - Audio */
+"NSAudioCaptureUsageDescription" = "Een programma binnen Factory Floor wil toegang tot de audio van je systeem.";
+
+/* Privacy - Bluetooth */
+"NSBluetoothAlwaysUsageDescription" = "Een programma binnen Factory Floor wil Bluetooth gebruiken.";
+
+/* Privacy - Calendars */
+"NSCalendarsUsageDescription" = "Een programma binnen Factory Floor wil toegang tot je Agenda.";
+
+/* Privacy - Camera */
+"NSCameraUsageDescription" = "Een programma binnen Factory Floor wil de camera gebruiken.";
+
+/* Privacy - Contacts */
+"NSContactsUsageDescription" = "Een programma binnen Factory Floor wil toegang tot je Contacten.";
+
+/* Privacy - Local Network */
+"NSLocalNetworkUsageDescription" = "Een programma binnen Factory Floor wil toegang tot het lokale netwerk.";
+
+/* Privacy - Location (Temporary) */
+"NSLocationTemporaryUsageDescriptionDictionary" = "Een programma binnen Factory Floor wil tijdelijk je locatie gebruiken.";
+
+/* Privacy - Location */
+"NSLocationUsageDescription" = "Een programma binnen Factory Floor wil toegang tot je locatiegegevens.";
+
+/* Privacy - Microphone */
+"NSMicrophoneUsageDescription" = "Een programma binnen Factory Floor wil je microfoon gebruiken.";
+
+/* Privacy - Motion */
+"NSMotionUsageDescription" = "Een programma binnen Factory Floor wil toegang tot bewegingsgegevens.";
+
+/* Privacy - Photos */
+"NSPhotoLibraryUsageDescription" = "Een programma binnen Factory Floor wil toegang tot je Fotobibliotheek.";
+
+/* Privacy - Reminders */
+"NSRemindersUsageDescription" = "Een programma binnen Factory Floor wil toegang tot je herinneringen.";
+
+/* Privacy - Speech Recognition */
+"NSSpeechRecognitionUsageDescription" = "Een programma binnen Factory Floor wil spraakherkenning gebruiken.";
+
+/* Privacy - System Administration */
+"NSSystemAdministrationUsageDescription" = "Een programma binnen Factory Floor heeft verhoogde bevoegdheden nodig.";
