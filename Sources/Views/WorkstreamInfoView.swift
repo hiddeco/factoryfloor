@@ -10,7 +10,6 @@ struct WorkstreamInfoView: View {
     let projectName: String
     let projectDirectory: String
     var scriptConfig: ScriptConfig = .empty
-    var useTmux: Bool = false
     var environmentVars: [String: String] = [:]
     @Binding var runStoppedManually: Bool
     @Binding var runStarted: Bool
@@ -212,7 +211,7 @@ struct WorkstreamInfoView: View {
                         projectName: projectName,
                         workstreamName: workstreamName,
                         scriptConfig: scriptConfig,
-                        useTmux: useTmux,
+                        useTmux: sessionMode == .tmux,
                         environmentVars: environmentVars,
                         runStoppedManually: $runStoppedManually,
                         runStarted: $runStarted
