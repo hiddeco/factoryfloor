@@ -432,13 +432,13 @@ struct TerminalContainerView: View {
                 startWorkspace(defaultBranch: branch)
             }
         }
-        .onChange(of: tmuxMode) { rebuildCachedCommands() }
-        .onChange(of: bypassPermissions) { rebuildCachedCommands() }
-        .onChange(of: autoRenameBranch) { rebuildCachedCommands() }
-        .onChange(of: allowOutsideWorktree) { rebuildCachedCommands() }
-        .onChange(of: workstreamName) { rebuildCachedCommands() }
+        .onChange(of: tmuxMode) { rebuildClaudeCommand() }
+        .onChange(of: bypassPermissions) { rebuildClaudeCommand() }
+        .onChange(of: autoRenameBranch) { rebuildClaudeCommand() }
+        .onChange(of: allowOutsideWorktree) { rebuildClaudeCommand() }
+        .onChange(of: workstreamName) { rebuildClaudeCommand() }
         .onChange(of: appEnv.isDetecting) {
-            rebuildCachedCommands()
+            rebuildClaudeCommand()
             if isActive { preloadSurfaces() }
         }
         .onReceive(NotificationCenter.default.publisher(for: .terminalChildExited)) { notification in
@@ -575,7 +575,7 @@ struct TerminalContainerView: View {
         return finalCommand
     }
 
-    private func rebuildCachedCommands() {
+    private func rebuildClaudeCommand() {
         cachedClaudeCommand = buildClaudeCommand()
     }
 
@@ -619,7 +619,7 @@ struct TerminalContainerView: View {
             }
         }
         appEnv.refreshWorktreeState(for: workingDirectory, projectDirectory: projectDirectory)
-        rebuildCachedCommands()
+        rebuildClaudeCommand()
         if scriptConfig.setup != nil, !SetupStateStore.isCompleted(for: workstreamID) {
             setupGateState = .running
         } else {
